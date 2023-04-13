@@ -1,5 +1,5 @@
 {
-    "name": "QuangPV/ReqConcurrent",
+    "name": "req/concurrent",
     "description": "Create request concurrent",
     "license" : "MIT",
     "authors": [
