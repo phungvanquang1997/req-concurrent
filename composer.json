@@ -28,7 +28,7 @@
                 "Http\\ReqConcurrent\\ReqConcurrentProvider"
             ],
             "aliases": {
-                "ReqConcurrent": "Http\\ReqConcurrent\\\\Facades\\"ReqConcurrent"
+                "ReqConcurrent": "Http\\ReqConcurrent\\Facades\\ReqConcurrent"
             }
         }
     }
