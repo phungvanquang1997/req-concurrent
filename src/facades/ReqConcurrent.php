@@ -1,3 +1,5 @@
+<?php
+
 namespace Http\ReqConcurrent\Facades;
 
 use Illuminate\Support\Facades\Facade;

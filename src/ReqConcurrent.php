@@ -1,3 +1,5 @@
+<?php
+
 namespace Http\ReqConcurrent;
 
 class ReqConcurrentController
