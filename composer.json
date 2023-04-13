@@ -1,0 +1,35 @@
+{
+    "name": "req concurrent",
+    "description": "Create request concurrent",
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "QuangPV"
+        }
+    ],
+    "require": {
+        "php": ">=7.2|^8.0",
+        "guzzlehttp/guzzle": "^7.5",
+    },
+    "require-dev": {
+        "mockery/mockery": "~1",
+        "phpunit/phpunit": "~9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\ReqConcurrent\\": "src"
+        }
+    },
+    "scripts": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Http\\ReqConcurrent\\ReqConcurrentProvider"
+            ],
+            "aliases": {
+                "ReqConcurrent": "Http\\ReqConcurrent\\\\Facades\\"ReqConcurrent"
+            }
+        }
+    }
+}
