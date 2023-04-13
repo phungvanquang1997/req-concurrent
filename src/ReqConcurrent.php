@@ -2,7 +2,7 @@
 
 namespace Http\ReqConcurrent;
 
-class ReqConcurrentController
+class ReqConcurrent
 {
     function test()
     {

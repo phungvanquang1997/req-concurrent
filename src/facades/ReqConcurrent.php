@@ -3,7 +3,7 @@
 namespace Http\ReqConcurrent\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Http\ReqConcurrent\ReqConCurrent;
+use Http\ReqConcurrent\ReqConcurrent as RequestCocurrent;
 
 class ReqConcurrent extends Facade
 {
@@ -14,8 +14,8 @@ class ReqConcurrent extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        self::clearResolvedInstance(ReqConCurrent::class);
+        self::clearResolvedInstance(RequestCocurrent::class);
 
-        return ReqConCurrent::class;
+        return RequestCocurrent::class;
     }
 }
